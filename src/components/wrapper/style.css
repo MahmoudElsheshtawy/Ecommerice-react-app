@@ -1,5 +1,7 @@
-.wrapper {
-  text-align: center;
+.wrapper .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit ,minmax(23rem, 1fr));
+  gap: 1.5rem;
 }
 .wrapper .img {
   margin: auto;
@@ -7,6 +9,7 @@
   height: 70px;
   line-height: 70px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .wrapper .img i {
   font-size: 25px;

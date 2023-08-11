@@ -4,17 +4,17 @@ import "./style.css"
 const Footer = () => {
   return (
     <>
-      <footer>
-        <div className='container grid2'>
+      <footer >
+        <div className='container'>
           <div className='box'>
             <h1>Bonik</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.</p>
-            <div className='icon d_flex'>
-              <div className='img d_flex'>
+            <div className='icon '>
+              <div className='img '>
                 <i class='fa-brands fa-google-play'></i>
                 <span>Google Play</span>
               </div>
-              <div className='img d_flex'>
+              <div className='img '>
                 <i class='fa-brands fa-app-store-ios'></i>
                 <span>App Store</span>
               </div>
@@ -44,9 +44,9 @@ const Footer = () => {
           <div className='box'>
             <h2>Contact Us</h2>
             <ul>
-              <li>70 Washington Square South, New York, NY 10012, United States </li>
-              <li>Email: uilib.help@gmail.com</li>
-              <li>Phone: +1 1123 456 780</li>
+              <li>A dedicated Front-end Developer based in Alexandria, egypt. </li>
+              <li>Email : elsheshtawym54@gmail.com</li>
+              <li>Phone : 01067870535</li>
             </ul>
           </div>
         </div>

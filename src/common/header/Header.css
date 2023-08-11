@@ -1,11 +1,12 @@
 /*------head-----------*/
 .head {
-  background-color: #0f3460;
+  background-color: #4e9af8;
   padding: 10px 0;
   color: #fff;
 }
 .head i {
-  margin-right: 10px;
+  margin-right: 5px;
+ 
 }
 .head label {
   margin-right: 30px;

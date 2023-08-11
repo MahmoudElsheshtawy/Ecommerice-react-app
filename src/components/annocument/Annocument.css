@@ -1,0 +1,14 @@
+.annocument .container{
+   display: flex;
+   width: 90%;
+  
+
+  
+}
+.annocument .container .img {
+    object-fit: cover;
+    /* background-position: center; */
+    margin: auto;
+    width: 100%;
+
+}
