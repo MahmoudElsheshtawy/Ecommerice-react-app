@@ -9,6 +9,11 @@
 }
 .homeSlide p {
   margin: 20px 0;
+  /* color: aquamarine; */
+}
+
+.box p{
+  color: #000 ;
 }
 .homeSlide ul {
   position: absolute;
@@ -32,21 +37,8 @@
   left: 0;
   margin: auto;
 }
-.home{
-  background-color: aqua;
-}
-.home .container{
-  background-color: bisque;
-}
-h1{
-  color: blue;
-}
-p{
-  color: brown;
-}
-.box img{
-  /* width: 100px; */
-}
+
+
 @media screen and (max-width:1246px) {
   /* search bar */
 }

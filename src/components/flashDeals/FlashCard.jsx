@@ -23,7 +23,7 @@ const SamplePrevArrow = (props) => {
     </div>
   )
 }
-const FlashCard = ({ productItems, addToCart }) => {
+const FlashCard = ({ productItems, addToCart ,index}) => {
   const [count, setCount] = useState(0)
   const increment = () => {
     setCount(count + 1)
@@ -69,10 +69,10 @@ const FlashCard = ({ productItems, addToCart }) => {
 
   return (
     <>
-      <Slider {...settings}>
+      <Slider {...settings} key={index}>
         {productItems.map((productItems) => {
           return (
-            <div className='box'>
+            <div className='box' >
               <div className='product mtop'>
                 <div className='img'>
                   <span className='discount'>{productItems.discount}% Off</span>
