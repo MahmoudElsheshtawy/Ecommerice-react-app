@@ -43,7 +43,7 @@ const Catg = () => {
           )
         })}
         <div className='box box2'>
-          {/* <button>View All Brands</button> */}
+          <button>View All Brands</button>
         </div>
       </div>
     </>

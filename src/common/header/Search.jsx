@@ -1,6 +1,7 @@
 import React from "react"
 import logo from "../../components/assets/images/logo.svg"
 import { Link } from "react-router-dom"
+// import Navbar from "./Navbar"
 
 const Search = ({ CartItem }) => {
   // fixed Header
@@ -20,8 +21,9 @@ const Search = ({ CartItem }) => {
           <div className='search-box f_flex'>
             <i className='fa fa-search'></i>
             <input type='text' placeholder='Search and hit enter...' />
-            <span>All Category</span>
+            {/* <span>All Category</span> */}
           </div>
+          {/* <Navbar/> */}
 
           <div className='icon f_flex width'>
             <i className='fa fa-user icon-circle'></i>
