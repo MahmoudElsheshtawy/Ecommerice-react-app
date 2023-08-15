@@ -41,10 +41,10 @@ const TopCart = () => {
   return (
     <>
       <Slider {...settings}>
-        {Tdata.map((value, index) => {
+        {Tdata.map((value) => {
           return (
-            <>
-              <div className='box product' key={index}>
+            <React.Fragment key={value.id}>
+              <div className='box product' >
                 <div className='nametop '>
                   <span className='tleft'>{value.para}</span>
                   <span className='tright'>{value.desc}</span>
@@ -53,7 +53,7 @@ const TopCart = () => {
                   <img src={value.cover} alt='' />
                 </div>
               </div>
-            </>
+            </React.Fragment>
           )
         })}
       </Slider>

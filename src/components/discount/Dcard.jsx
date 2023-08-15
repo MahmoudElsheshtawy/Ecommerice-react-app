@@ -42,17 +42,17 @@ const Dcard = () => {
   return (
     <>
       <Slider {...settings}>
-        {Ddata.map((value, index) => {
+        {Ddata.map((value) => {
           return (
-            <>
-              <div className='box product' key={index}>
+            <React.Fragment  key={value.id}>
+              <div className='box product'>
                 <div className='img'>
                   <img src={value.cover} alt='' width='100%' />
                 </div>
                 <h4>{value.name}</h4>
                 <span>{value.price}</span>
               </div>
-            </>
+            </React.Fragment>
           )
         })}
       </Slider>

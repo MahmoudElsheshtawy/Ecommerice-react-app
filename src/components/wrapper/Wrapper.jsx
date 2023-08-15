@@ -28,7 +28,7 @@ const Wrapper = () => {
     <>
       <section className='wrapper background'>
         <div className='container '>
-          {data.map((data, index) => {
+          {data.map((data ,index) => {
             return (
               <div className='product' key={index}>
                 <div className='img icon-circle'>

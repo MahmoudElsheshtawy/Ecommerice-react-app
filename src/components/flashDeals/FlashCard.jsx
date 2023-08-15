@@ -68,11 +68,11 @@ const FlashCard = ({ productItems, addToCart ,index}) => {
 
 
   return (
-    <>
-      <Slider {...settings} key={index}>
+    <React.Fragment >
+      <Slider {...settings} >
         {productItems.map((productItems) => {
           return (
-            <div className='box' >
+            <div className='box' key={productItems.id}>
               <div className='product mtop'>
                 <div className='img'>
                   <span className='discount'>{productItems.discount}% Off</span>
@@ -106,7 +106,7 @@ const FlashCard = ({ productItems, addToCart ,index}) => {
           )
         })}
       </Slider>
-    </>
+    </React.Fragment>
   )
 }
 

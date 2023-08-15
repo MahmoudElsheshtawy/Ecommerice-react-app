@@ -4,8 +4,8 @@ import Ndata from "./Ndata"
 const Cart = () => {
   return (
     <>
-      <div className='content  product'>
-        {Ndata.map((val, index) => {
+      <div className='content  product' >
+        {Ndata.map((val,index) => {
           return (
             <div className='box' key={index}>
               <div className='img'>

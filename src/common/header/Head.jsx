@@ -18,9 +18,9 @@ const Head = () => {
           <div className='right'>
             <label>Theme FAQ"s</label>
             <label>Need Help?</label>
-            <span>🏳️‍⚧️</span>
+            {/* <span>🏳️‍⚧️</span>
             <label>EN</label>
-            <span>🏳️‍⚧️</span>
+            <span>🏳️‍⚧️</span> */}
             <label>USD</label>
           </div>
         </div>
